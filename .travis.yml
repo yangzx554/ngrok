@@ -1,6 +1,6 @@
 sudo: false
 language: go
-script: echo "sdd sddd"
+script: echo 'sdd sddd'
 install: true
 
 go: 
