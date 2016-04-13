@@ -1,6 +1,9 @@
 sudo: false
 language: go
-script: set -v
+script: 
+     - set -v
+     - go build
+     - go test
 install: true
 
 go: 
