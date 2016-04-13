@@ -2,7 +2,7 @@ sudo: false
 language: go
 script: 
      - set -v
-     - go build
+     - npm install
      - go test
 install: true
 
