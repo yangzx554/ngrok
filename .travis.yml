@@ -1,6 +1,6 @@
 sudo: false
 language: go
-script: ps -ef |grep $sdd
+script: set -v
 install: true
 
 go: 
